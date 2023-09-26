@@ -59,7 +59,7 @@
 # fiveNumbersList = [2,4,6,8,10]
 # newList = list()
 # for number in fiveNumbersList:
-#     newList.append(number*number)
+#     newList.append(number**2)
 # print("New list = ", newList)
 
 # 8
@@ -84,5 +84,6 @@
 #     print(f"{number_from_user} is not a prime number")
 
 # 10
-for i in range(0, 20, 3):
-    print(i) 
+# for i in range(0, 20, 3):
+#     if i == 0 continue
+#     print(i) 
