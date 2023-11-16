@@ -17,7 +17,6 @@ def get_random_quotes(amount):
          for quote in quotes_data:
             count += 1
             print(f"{count}. Quote\n{quote[QUOTE_CONTENT]}\nby {quote[QUOTE_AUTHOR]}\n\n")
-            # print(f"{quote['id']}")
       else:
         print(f"Error: response status code = {response.status_code}") 
    except HTTPError as http_err:
